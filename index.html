@@ -1,248 +1,292 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>I'm HAO</title>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="來自台灣的學生程序員。我從小就對電腦科學和科技感到興趣。開始學習編程得相當早。 擅長編寫各種網頁程式、桌面程式和機器人科學程式。 目前擔任第46屆世界技能競賽(WorldSkills 2022 Shanghai)的移動機器人職類國手。 另外目前也是CISH Robotics Team及CISH Networking Team的成員。">
-    <meta name="keywords" content="HTML, CSS, JavaScript, HAO, 張皓鈞">
-    <meta name="author" content="HAO">
-    <meta name="theme-color" content="#000000">
 
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+<head>
+  <title>I'm HAO</title>
 
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    
-    <style>
-      body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-      .w3-row-padding img {margin-bottom: 12px}
-      /* Set the width of the sidebar to 120px */
-      .w3-sidebar {width: 120px;background: #222;}
-      /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-      #main {margin-left: 120px}
-      /* Remove margins from "page content" on small screens */
-      @media only screen and (max-width: 600px) {#main {margin-left: 0}}
-    </style>
-  </head>
-  <body class="w3-black">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="來自台灣的學生程序員。我從小就對電腦科學和科技感到興趣。開始學習編程得相當早。 擅長編寫各種網頁程式、桌面程式和機器人科學程式。 目前擔任第46屆世界技能競賽(WorldSkills 2022 Shanghai)的移動機器人職類國手。 另外目前也是CISH Robotics Team及CISH Networking Team的成員。">
+  <meta name="keywords" content="HTML, CSS, JavaScript, HAO, 張皓鈞">
+  <meta name="author" content="HAO">
+  <meta name="theme-color" content="#000000">
 
-    <!-- Icon Bar (Sidebar - hidden on small screens) -->
-    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-      <!-- Avatar image in top left corner -->
-      <!-- <img src="/w3images/avatar_smoke.jpg" style="width:100%"> -->
-      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-        <i class="fa fa-home w3-xxlarge"></i>
-        <p>HOME</p>
-      </a>
-      <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-        <i class="fa fa-user w3-xxlarge"></i>
-        <p>ABOUT</p>
-      </a>
-      <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-        <i class="fa fa-eye w3-xxlarge"></i>
-        <p>PHOTOS</p>
-      </a>
-      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-        <i class="fa fa-envelope w3-xxlarge"></i>
-        <p>CONTACT</p>
-      </a>
-    </nav>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
-    <!-- Navbar on small screens (Hidden on medium and large screens) -->
-    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-      <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-        <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-        <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-        <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-        <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+  <script src="https://kit.fontawesome.com/f61e4fdf39.js" crossorigin="anonymous"></script>
+
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Montserrat", sans-serif
+    }
+
+    .w3-row-padding img {
+      margin-bottom: 12px
+    }
+
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+      width: 120px;
+      background: #222;
+    }
+
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+      margin-left: 120px
+    }
+
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+      #main {
+        margin-left: 0
+      }
+    }
+  </style>
+</head>
+
+<body class="w3-black">
+
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+    <!-- <img src="/w3images/avatar_smoke.jpg" style="width:100%"> -->
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <i class="fa fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>ABOUT</p>
+    </a>
+    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-eye w3-xxlarge"></i>
+      <p>PHOTOS</p>
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-envelope w3-xxlarge"></i>
+      <p>CONTACT</p>
+    </a>
+  </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Hayden</h1>
+      <p>張皓鈞</p>
+      <p>Programmer 程序員</p>
+      <img src="images/hao.jpg" alt="hao" class="w3-image" width="500" height="1108">
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey">Hayden 張皓鈞</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p>
+        Student programmer from Taiwan. I've been interested in computer science and technology since I was a kid.
+        Started learning programming quite early.
+        I am good at writing all kinds of web programs, desktop programs and robot science programs.
+        I was a national competitor in the Mobile Robotics category in the 46th WorldSkills 2022.
+        I am also a member of CISH Robotics Team and CISH Networking Team.
+        I am currently studying at National Taiwan University of Science and Technology.
+      </p>
+      <p>
+        來自台灣的學生程序員。我從小就對電腦科學和科技感到興趣。開始學習編程得相當早。
+        擅長編寫各種網頁程式、桌面程式和機器人科學程式。
+        曾經擔任第46屆世界技能競賽(WorldSkills 2022)的移動機器人職類國手。
+        另外我目前也是CISH Robotics Team及CISH Networking Team的成員。
+        現就讀於國立臺灣科技大學。
+      </p>
+
+      <!-- Grid for team logos -->
+      <div class="w3-row w3-center w3-padding-16 w3-section">
+        <div class="w3-third w3-section"
+          style="height:150px;display: flex; align-items: center; justify-content: center;">
+          <img src="images/crt.png" style="width:70%;">
+        </div>
+        <div class="w3-third w3-section"
+          style="height:150px;display: flex; align-items: center; justify-content: center;">
+          <img src="images/cnt.png" style="width:70%;">
+        </div>
+        <div class="w3-third w3-section"
+          style="height:150px;display: flex; align-items: center; justify-content: center;">
+          <img src="images/tw.png" style="width:70%;">
+        </div>
+        <!-- End team logos -->
       </div>
+
+      <h3 class="w3-padding-16 w3-text-light-grey">My Skills 技能</h3>
+      <p class="w3-wide">Programming 編程</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+      </div>
+      <p class="w3-wide">Robotics 機器人科學</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+      </div>
+      <p class="w3-wide">Film and television creation 影視創作</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+      </div><br>
+
+      <h3 class="w3-padding-16 w3-text-light-grey">Programming Languages 編程語言</h3>
+      <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+        <div class="w3-quarter w3-section">
+          <i class="fab fa-golang fa-3x"></i><br>
+          <span class="w3-xlarge">Go</span>
+        </div>
+        <div class="w3-quarter w3-section">
+          <i class="fab fa-js fa-3x"></i><br>
+          <span class="w3-xlarge">JS/TS</span>
+        </div>
+        <div class="w3-quarter w3-section">
+          <i class="fab fa-python fa-3x"></i><br>
+          <span class="w3-xlarge">Python</span>
+        </div>
+        <div class="w3-quarter w3-section">
+          <i class="fab fa-c fa-3x"></i><br>
+          <span class="w3-xlarge">C/C++</span>
+        </div>
+        <!-- <div class="w3-quarter w3-section">
+          <img src="images/labview.svg" width="40px" style="fill:black;margin:3px;"><br>
+          <span class="w3-xlarge">LabVIEW</span>
+        </div> -->
+      </div>
+
+      <!-- Testimonials -->
+      <h3 class="w3-padding-24 w3-text-light-grey">My Honors 榮譽</h3>
+      <table class="w3-table w3-bordered">
+        <tr>
+          <td>WorldSkills 2022 Special Edition Bordeaux <small>Mobile Robotics</small></td>
+          <td>Medallion for Excellence 優勝</td>
+        </tr>
+        <tr>
+          <td>WorldSkills Asia Online Friendly Skills Games 2021 <small>Mobile Robotics</small></td>
+          <td>Bronze Medal 第三名</td>
+        </tr>
+        <tr>
+          <td>WorldSkills 2021 Mobile Robotics Online Challenge</td>
+          <td>Silver Medal 第二名</td>
+        </tr>
+        <tr>
+          <td>109年工業類學生技藝競賽 <small>移動機器人職類</small></td>
+          <td>Gold Medal 第一名</td>
+        </tr>
+        <tr>
+          <td>46屆世賽第二階段國手選拔賽 <small>移動機器人職類</small></td>
+          <td>Gold Medal 第一名</td>
+        </tr>
+        <tr>
+          <td>46屆世賽第一階段國手選拔賽 <small>移動機器人職類</small></td>
+          <td>Gold Medal 第一名(總分最高)</td>
+        </tr>
+        <tr>
+          <td>49屆全國技能競賽 <small>移動機器人職類</small></td>
+          <td>Gold Medal 第一名</td>
+        </tr>
+        <tr>
+          <td>49屆中區技能競賽 <small>移動機器人職類</small></td>
+          <td>Silver Medal 第二名</td>
+        </tr>
+      </table>
+      <!-- End About Section -->
     </div>
 
-    <!-- Page Content -->
-    <div class="w3-padding-large" id="main">
-      <!-- Header/Home -->
-      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-        <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> HAO.</h1>
-        <p>張皓鈞</p>
-        <p>Programmer 程式設計師</p>
-        <img src="images/hao.jpg" alt="hao" class="w3-image" width="500" height="1108">
-      </header>
+    <!-- Portfolio Section -->
+    <div class="w3-padding-64 w3-content" id="photos">
+      <h2 class="w3-text-light-grey">My Photos 照片</h2>
+      <hr style="width:200px" class="w3-opacity">
 
-      <!-- About Section -->
-      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-        <h2 class="w3-text-light-grey">HAO 張皓鈞</h2>
-        <hr style="width:200px" class="w3-opacity">
-        <p>
-          Student programmer from Taiwan. I have been interested in computer science and technology since I was young.
-          I started learning programming quite early. Good at writing various web programs, desktop programs and robotics programs.
-          Currently serving as the National Competitor of Mobile Robotics for the 46th WorldSkills (WorldSkills 2022 Shanghai).
-          Also a member of CISH Robotics Team and CISH Networking Team.
-        </p>
-        <p>
-          來自台灣的學生程序員。我從小就對電腦科學和科技感到興趣。開始學習編程得相當早。
-          擅長編寫各種網頁程式、桌面程式和機器人科學程式。
-          目前擔任第46屆世界技能競賽(WorldSkills 2022 Shanghai)的移動機器人職類國手。
-          另外目前也是CISH Robotics Team及CISH Networking Team的成員。
-        </p>
-
-        <!-- Grid for team logos -->
-        <div class="w3-row w3-center w3-padding-16 w3-section">
-          <div class="w3-third w3-section" style="height:150px;display: flex; align-items: center; justify-content: center;">
-            <img src="images/crt.png" style="width:70%;">
-          </div>
-          <div class="w3-third w3-section" style="height:150px;display: flex; align-items: center; justify-content: center;">
-            <img src="images/cnt.png" style="width:70%;">
-          </div>
-          <div class="w3-third w3-section" style="height:150px;display: flex; align-items: center; justify-content: center;">
-            <img src="images/tw.png" style="width:70%;">
-          </div>
-        <!-- End team logos -->
+      <!-- Grid for photos -->
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+          <img src="images/001.jpg" style="width:100%">
+          <img src="images/005.jpg" style="width:100%">
+          <img src="images/007.png" style="width:100%">
+          <img src="images/52451947122_bc445b2845_o.JPG" style="width:100%">
         </div>
 
-        <h3 class="w3-padding-16 w3-text-light-grey">My Skills 技能</h3>
-        <p class="w3-wide">Programming 編程</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+        <div class="w3-half">
+          <img src="images/004.jpg" style="width:100%">
+          <img src="images/002.png" style="width:100%">
+          <img src="images/006.jpg" style="width:100%">
+          <img src="images/52444945730_e1047551e6_o.JPG" style="width:100%">
         </div>
-        <p class="w3-wide">Robotics 機器人科學</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:90%"></div>
-        </div>
-        <p class="w3-wide">Film and television creation 影視創作</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:60%"></div>
-        </div><br>
-        
-        <h3 class="w3-padding-16 w3-text-light-grey">Programming Languages 編程語言</h3>
-        <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-          <div class="w3-quarter w3-section">
-            <i class="fab fa-python fa-3x"></i><br>
-            <span class="w3-xlarge">Python</span>
-          </div>
-          <div class="w3-quarter w3-section">
-            <i class="fab fa-php fa-3x"></i><br>
-            <span class="w3-xlarge">PHP</span>
-          </div>
-          <div class="w3-quarter w3-section">
-            <i class="fab fa-java fa-3x"></i><br>
-            <span class="w3-xlarge">Java</span>
-          </div>
-          <div class="w3-quarter w3-section">
-            <img src="images/labview.svg" width="40px" style="fill:black;margin:3px;"><br>
-            <span class="w3-xlarge">LabVIEW</span>
-          </div>
-        </div>
-        
-        <!-- Testimonials -->
-        <h3 class="w3-padding-24 w3-text-light-grey">My Honors 榮譽</h3>  
-        <table class="w3-table w3-bordered">
-          <tr>
-            <td>WorldSkills 2022 Special Edition Bordeaux <small>Mobile Robotics</small></td>
-            <td>Medallion for Excellence 優勝</td>
-          </tr>
-          <tr>
-            <td>WorldSkills Asia Online Friendly Skills Games 2021 <small>Mobile Robotics</small></td>
-            <td>Bronze Medal 第三名</td>
-          </tr>
-          <tr>
-            <td>WorldSkills 2021 Mobile Robotics Online Challenge</td>
-            <td>Silver Medal 第二名</td>
-          </tr>
-          <tr>
-            <td>109年工業類學生技藝競賽 <small>移動機器人職類</small></td>
-            <td>Gold Medal 第一名</td>
-          </tr>
-          <tr>
-            <td>46屆世賽第二階段國手選拔賽 <small>移動機器人職類</small></td>
-            <td>Gold Medal 第一名</td>
-          </tr>
-          <tr>
-            <td>46屆世賽第一階段國手選拔賽 <small>移動機器人職類</small></td>
-            <td>Gold Medal 第一名(總分最高)</td>
-          </tr>
-          <tr>
-            <td>49屆全國技能競賽 <small>移動機器人職類</small></td>
-            <td>Gold Medal 第一名</td>
-          </tr>
-          <tr>
-            <td>49屆中區技能競賽 <small>移動機器人職類</small></td>
-            <td>Silver Medal 第二名</td>
-          </tr>
-          </table>
-      <!-- End About Section -->
-      </div>
-      
-      <!-- Portfolio Section -->
-      <div class="w3-padding-64 w3-content" id="photos">
-        <h2 class="w3-text-light-grey">My Photos 照片</h2>
-        <hr style="width:200px" class="w3-opacity">
-
-        <!-- Grid for photos -->
-        <div class="w3-row-padding" style="margin:0 -16px">
-          <div class="w3-half">
-            <img src="images/001.jpg" style="width:100%">
-            <img src="images/005.jpg" style="width:100%">
-            <img src="images/007.png" style="width:100%">
-            <img src="images/52451947122_bc445b2845_o.JPG" style="width:100%">
-          </div>
-
-          <div class="w3-half">
-            <img src="images/004.jpg" style="width:100%">
-            <img src="images/002.png" style="width:100%">
-            <img src="images/006.jpg" style="width:100%">
-            <img src="images/52444945730_e1047551e6_o.JPG" style="width:100%">
-          </div>
         <!-- End photo grid -->
-        </div>
+      </div>
       <!-- End Portfolio Section -->
-      </div>
+    </div>
 
-      <!-- Contact Section -->
-      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-        <h2 class="w3-text-light-grey">Contact Me 聯繫我</h2>
-        <hr style="width:200px" class="w3-opacity">
+    <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+      <h2 class="w3-text-light-grey">Contact Me 聯繫我</h2>
+      <hr style="width:200px" class="w3-opacity">
 
-        <div class="w3-section">
-          <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Taiwan (R.O.C.)</p>
-          <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +886 916819600</p>
-          <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Email: m831718@gmail.com</p>
-          <p><a href="https://t.me/CRT_HAO"><i class="fab fa-telegram fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> @CRT_HAO</a></p>
-        </div><br>
+      <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Taiwan (R.O.C.)</p>
+        <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +886 916819600</p>
+        <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Email: m831718@gmail.com</p>
+        <p><a href="https://t.me/CRT_HAO"><i class="fab fa-telegram fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>
+            @CRT_HAO</a></p>
+      </div><br>
       <!-- End Contact Section -->
-      </div>
+    </div>
 
-      <!-- Socials Section -->
-      <div class="w3-padding-64 w3-content w3-text-grey" id="socials">
-        <h2 class="w3-text-light-grey">Social Medias 社交媒體</h2>
-        <hr style="width:200px" class="w3-opacity">
+    <!-- Socials Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="socials">
+      <h2 class="w3-text-light-grey">Social Medias 社交媒體</h2>
+      <hr style="width:200px" class="w3-opacity">
 
-        <div class="w3-section">
-          <p><a href="https://github.com/CRT-HAO"><i class="fab fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> CRT_HAO<a></p>
-          <p><a href="https://www.youtube.com/channel/UC-WnTCkztbitHGXnmvipUUg"><i class="fab fa-youtube fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> CRT_HAO</a></p>
-          <p><a href="https://www.facebook.com/CRT.HAO.CHUN"><i class="fab fa-facebook fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 張皓鈞</a></p>
-          <p><a href="https://www.instagram.com/crt_hao"><i class="fab fa-instagram fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 張皓鈞</a></p>
-          <p><a href="https://www.linkedin.com/in/crthao/"><i class="fab fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 張皓鈞<a></p>
-        </div><br>
+      <div class="w3-section">
+        <p><a href="https://github.com/CRT-HAO"><i
+              class="fab fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> CRT_HAO<a></p>
+        <p><a href="https://www.youtube.com/channel/UC-WnTCkztbitHGXnmvipUUg"><i
+              class="fab fa-youtube fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> CRT_HAO</a></p>
+        <p><a href="https://www.facebook.com/CRT.HAO.CHUN"><i
+              class="fab fa-facebook fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 張皓鈞</a></p>
+        <p><a href="https://www.instagram.com/crt_hao"><i
+              class="fab fa-instagram fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 張皓鈞</a></p>
+        <p><a href="https://www.linkedin.com/in/crthao/"><i
+              class="fab fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 張皓鈞<a></p>
+      </div><br>
       <!-- End Socials Section -->
-      </div>
-      
-        <!-- Footer -->
-      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-        <p class="w3-medium">
-          Template by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a><br>
-          Powered By HAO 張皓鈞<br>
-          🏳️‍🌈Pride
-        </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+      <p class="w3-medium">
+        Template by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+          class="w3-hover-text-green">w3.css</a><br>
+        Powered By HAO 張皓鈞<br>
+        🏳️‍🌈Pride
+      </p>
       <!-- End footer -->
-      </footer>
+    </footer>
 
     <!-- END PAGE CONTENT -->
-    </div>
+  </div>
 
-  </body>
+</body>
+
 </html>
