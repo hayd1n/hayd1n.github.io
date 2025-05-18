@@ -1,0 +1,1 @@
+import{b as c,h as r,d as i,E as s,e as h,g as d,i as p}from"./OCln--PL.js";function u(t,f,o){r&&i();var n=t,a,e;c(()=>{a!==(a=f())&&(e&&(d(e),e=null),a&&(e=h(()=>o(n,a))))},s),r&&(n=p)}export{u as c};
